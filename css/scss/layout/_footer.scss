@@ -1,0 +1,20 @@
+footer{
+	background-color: $pink;
+	color:white;
+	MARGIN-TOP: 2%;
+	.container{
+		border-left: 15px solid white;
+		border-right: 15px solid white;
+    	width: 90%;
+    	background-color:$orange;
+    	padding:2% 0 5%;
+    	.contac{
+	    	h2{
+	    		margin: 10% 0;
+	    	}
+	    	p{
+	    		margin-bottom: 30PX;
+	    	}
+	    }	
+	 }
+}	

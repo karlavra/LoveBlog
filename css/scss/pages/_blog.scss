@@ -1,0 +1,49 @@
+.blog-img{
+	img{
+		width: 100%;
+	}
+}
+.btn-float {
+    position: absolute;
+    left: -75px;
+    }
+.-blog{
+	h3{
+		@include orangebold;
+	}
+	p{
+		font-size: 1.2em;
+	}
+	.col-xs-3{
+		margin-top: 25px;
+		p:nth-child(2n+1){
+			@include orangebold;
+		}
+	}
+}
+.bgn-quote{
+	background-image:url("../images/quote_bg.png");
+	background-repeat: repeat;
+	background-size: contain;
+	padding:3%;
+	div{
+		display: inline-block;
+	    vertical-align: top;
+	    margin-right: 15px;
+	}
+	p{
+		display: inline-block;
+	    width: 90%;
+	    font-weight: 600;
+	    font-size: 1.3em;
+	}
+}
+.pag{
+	padding: 4% 0;
+	a{ 
+	@include orangebold;
+	color:white;
+	padding: 1% 2%;
+	margin:0 5px;
+	}
+}    

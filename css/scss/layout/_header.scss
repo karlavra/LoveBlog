@@ -1,0 +1,22 @@
+header{
+	.navbar-brand{
+	    PADDING: 0;
+	}
+	h1{
+		FONT-WEIGHT: bold;
+		color:$orange;
+		span{
+			color:$pink;
+		}
+	}
+	.navbar-nav>li>a{
+		MARGIN-TOP: 10PX;
+    	FONT-SIZE: large;
+    	FONT-WEIGHT: 600;
+    	color:$gray;
+    	&:hover{
+    		color:$orange;
+    		background-color:transparent;
+    	}
+	}
+}

@@ -1,0 +1,75 @@
+@import "scss/helpers/_variables";
+@import "scss/helpers/_mixin";
+@import "scss/layout/_header";
+@import "scss/layout/_footer";
+@import "scss/base/_base";
+@import "scss/pages/_about-us.scss";
+@import "scss/pages/_blog.scss";
+@import "scss/pages/_contact-us.scss";
+@import "scss/pages/_portfolio.scss";
+@import "scss/layout/_aside";
+
+
+*{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+/******************HOME***********************/
+
+
+.servicios{ 
+	margin:0;
+	.box-items{
+		padding: 1%;
+	    margin-bottom: 25px;
+	    img{
+	    	display: inline-block;
+	    	vertical-align: top;
+	    	margin-right: 5px;
+	    }
+	    h3{
+	    display: inline-block;
+	    width: 80%;
+	    vertical-align: top;
+	    margin: 0;
+	    color: $orange;
+	    padding: 2%;
+	    }
+	}
+	.btn{
+		background: $orange;
+	    border-radius: 0;
+	    border-color: $orange;
+	    color: white;
+	    margin: 10px 0;
+	    font-weight: 600;
+	}
+}
+
+.blog{
+	margin:4% 0;
+	text-align: center;
+	.img-blog {
+	    border: 1px solid $gray;
+	    img{
+	    	width: 100%;
+	    }
+	    h3{
+	    	color:$gray;
+	    }
+	    p{
+	    	color:$orange;
+	    }
+	}
+}
+/****************PORTFOLIO**************/
+
+
+/**************CONTAC US******************/
+
+
+/**************BLOG******************/
+
+
+/**************ABOUT US******************/
+
+	

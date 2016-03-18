@@ -1,0 +1,34 @@
+.-porta{
+	.img-blog{
+		padding: 1px;
+		margin-bottom: 5px;
+		&:nth-child(2){
+			text-align: left;
+    		padding: 3%;
+    		h3{
+    			margin: 0;
+    		}
+		}
+	}
+}
+.nav-porta{
+	margin: 0;
+    padding: 0 2%;
+    h3{
+    	display:INLINE-BLOCK;
+	    font-weight: bold;
+	    margin-right:25px; 
+    }
+    a{
+    	DISPLAY: INLINE-BLOCK;
+    	FONT-SIZE: 1.4EM;
+    	PADDING: 10PX;
+    	font-weight: bold;
+    	color:$gray;
+    	text-decoration: none;
+    	&:hover{
+    		color:white;
+    		background-color:$orange;
+    	}
+    }
+}

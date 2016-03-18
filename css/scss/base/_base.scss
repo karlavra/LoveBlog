@@ -1,0 +1,40 @@
+.bg-line-pink{
+	background-color:$pink;
+    height: 50px;
+}
+
+.separacion {
+	margin: 3% 0;
+	h4{
+		@include orangebold;
+   		MARGIN: 0;
+	}
+	.bg-line{
+		background-image: url("../images/heading-bg.png");
+	    background-repeat: repeat-x;
+	    background-size: contain;
+	    HEIGHT: 20PX;
+	}
+}
+.banner{
+	bottom: 50px;
+    position: relative;
+    text-align: center;
+    border-left: 15px solid white;
+    border-right: 15px solid white;
+    background-color:$orange;
+    img{
+    	width: 100%
+    }
+}
+.banner-line{
+	height:50px;
+	h1{
+		margin: 0;
+    	padding: 5px;
+    	text-align: left;
+    	color: white;
+    	font-weight: 600;
+    	font-size: 2em;
+	}
+}

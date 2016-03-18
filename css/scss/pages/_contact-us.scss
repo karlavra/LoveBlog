@@ -1,0 +1,39 @@
+.map{
+	margin-bottom: 5%;
+	img{
+		width: 100%;
+	}
+}
+.-contac{
+	padding:0;
+	p{
+		font-size: 1.2em;
+    	margin-bottom: 25px;
+		.orange{
+			color: $orange;
+		}
+	}
+}
+form{
+	textarea{
+		border: 1px solid $orange;
+		border-radius: 0;
+		margin-bottom: 10px;
+		font-size: 1.3em;
+		color: $orange;
+		width: 100%;
+		PADDING: 1%;
+	}
+		.form-control {
+			@extend textarea;
+			height: 45px;
+		}
+		.btn{
+			    BACKGROUND: $orange;
+		    	COLOR: WHITE;
+			    PADDING: 2%;
+			    FONT-SIZE: 1.5EM;
+			    WIDTH: 100%;
+			    FONT-WEIGHT: bolder;
+				}
+	}
